@@ -1,7 +1,7 @@
 # BocaGPT :large_blue_circle::yellow_circle::large_blue_circle:
 This is a bot called BocaGPT that will conduct the role of Manager of _Boca Juniors_ football team.
 
-BocaGPT is live at Twitter in https://twitter.com/BocaGPT
+BocaGPT is live at Twitter in [https://twitter.com/BocaGPT](https://twitter.com/BocaGPT) and for more details of how this was created [https://medium.com/@fergmolina/bocagpt-a-manager-bot-for-boca-jrs-eeacfa98d17b](https://medium.com/@fergmolina/bocagpt-a-manager-bot-for-boca-jrs-eeacfa98d17b)
 
 <img src="imgs/img1.png" width="500">
 
