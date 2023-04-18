@@ -1,0 +1,5 @@
+openai==0.27.*
+tweepy==4.13.*
+python-dotenv==0.16.*
+beautifulsoup4==4.10.*
+pytz==2023.3
