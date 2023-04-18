@@ -3,7 +3,7 @@ This is a bot called BocaGPT that will conduct the role of Manager of _Boca Juni
 
 BocaGPT is live at Twitter in https://twitter.com/BocaGPT
 
-![alt text](imgs/img4.png)
+![alt text](imgs/img1.png)
 
 ## :godmode: Functionality
 At the moment, BocaGPT will perform the following tasks:
