@@ -26,21 +26,21 @@ def main(event, context):
                 players = get_players_full_roster()
             else:
                 players = []
-            
+
             wrong_messages = True
             while wrong_messages:
                 tweets_msg = get_message_from_openai(days_for_next_match, matches, players)
                 wrong_messages = check_messages(tweets_msg)
-            
+
 
         elif execution == 2 and days_for_next_match > 0:
                 wrong_messages = True
                 while wrong_messages:
                     tweets_msg = get_press_from_openai(matches)
                     wrong_messages = check_messages(tweets_msg)
-        elif execution == 3 and days_for_next_match == 0: 
+        elif execution == 3 and days_for_next_match == 0:
             match = get_last_match()
-            
+
             load_dotenv()
             bot_name = os.getenv("BOT_NAME")
 
@@ -62,8 +62,13 @@ def main(event, context):
                 _ = tweet(tweet_msg,tweet_id)
                 tweet_id = 0
 
-        
+
         return (tweets_msg, 200)
 
     except Exception as e:
         return ("error - " + str(e), 400)
+
+
+if __name__ == "__main__":
+    #Allow running it outside Google Cloud
+    main('','')
