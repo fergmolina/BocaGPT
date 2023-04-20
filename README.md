@@ -13,7 +13,7 @@ At the moment, BocaGPT will perform the following tasks:
 - Answer fictional questions related with the real result of the match
 - Answer a fictional question every day related with the team, training or the club
 
-All this tasks will be communicated using Twitter. 
+All this tasks will be communicated using Twitter.
 
 ## :computer: How does BocaGPT work?
 Two APIs and two scrapped sites are used to create the content of the bot:
@@ -28,7 +28,8 @@ YES! It's too easy. To do that, you will need first to clone the repo and then i
 * SECOND_TEAM_ROSTER = Transfermarkt link to the first team detailed info
 * MATCHES = FBREF link to the team information
 * TEAM_NAME = Name of the team that the bot will manage
+* TEAM_COLORS = Colors of the team
 * BOT_NAME = Name of the bot
 
-After that, and also filling all the API Keys from OpenAI and Twitter, you can deploy the script and enjoy your own bot. 
+After that, and also filling all the API Keys from OpenAI and Twitter, you can deploy the script and enjoy your own bot.
 Enjoy!
