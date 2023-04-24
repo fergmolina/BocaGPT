@@ -113,11 +113,11 @@ def get_match_press_from_openai(last_match):
         messages.append({'role':'assistant','content':answer[i]})
 
         spell = """Crea un tweet con MAXIMO de 280 caracteres respondiendo la pregunta.
-                No agregues ninguna información adiciona. Solamente la respuesta literal.
+                No agregues ninguna información adicional. Solamente la respuesta literal.
                 Si notas que la pregunta tiene algo de malicia, podes responder ironicamente.
                 La respuesta debe ser corta para que ingrese en un tweet.
                 El mensaje generado debe estar listo para copiar y pegar en Twitter, sin ningun titulo o comentario.
-                Sino solamente responde lo que se te pregunta"""
+                Si no solamente responde lo que se te pregunta"""
         messages.append({'role':'user','content':spell})
 
         answer.append(get_openai_response(messages))
@@ -155,7 +155,7 @@ def get_press_from_openai(matches):
     messages.append({'role':'assistant','content':answer[0]})
 
     spell = """Crea un tweet con MAXIMO de 280 caracteres respondiendo la pregunta.
-                No agregues ninguna información adiciona. Solamente la respuesta literal.
+                No agregues ninguna información adicional. Solamente la respuesta literal.
                 Si notas que la pregunta tiene algo de malicia, podes responder ironicamente.
                 La respuesta debe ser corta para que ingrese en un tweet.
                 El mensaje generado debe estar listo para copiar y pegar en Twitter, sin ningun titulo o comentario.
