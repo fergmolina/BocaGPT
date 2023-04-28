@@ -25,7 +25,7 @@ Two APIs and two scrapped sites are used to create the content of the bot:
 ## :rocket: Can I create my own bot for my team?
 YES! It's too easy. To do that, you will need first to clone the repo and then install the requirmenets.txt. Then, you will need to change the env constants from the .env file:
 * FIRST_TEAM_ROSTER = Transfermarkt link to the first team detailed info
-* SECOND_TEAM_ROSTER = Transfermarkt link to the first team detailed info
+* SECOND_TEAM_ROSTER = Transfermarkt link to the second team detailed info
 * MATCHES = FBREF link to the team information
 * TEAM_NAME = Name of the team that the bot will manage
 * TEAM_COLORS = Colors of the team

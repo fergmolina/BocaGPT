@@ -66,6 +66,7 @@ def main(event, context):
         return (tweets_msg, 200)
 
     except Exception as e:
+        print("error - " + str(e))
         return ("error - " + str(e), 400)
 
 

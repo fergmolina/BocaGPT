@@ -43,8 +43,8 @@ def check_messages(messages):
         messages: List of strings with every message to be tweeted
     Returns:
         Boolean. 
-        True if all the messages length are less than 280 characters.
-        False if not.
+        False if all the messages length are less than 280 characters or not empty.
+        True if not.
     """
     for message in messages:
         if len(message) > 280 or len(message)==0:
