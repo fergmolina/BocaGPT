@@ -8,7 +8,7 @@ def next_match_days(matches_list):
     Returns:
         int. Difference of days between the next match and today. Range between 0-inf
     """
-    today = datetime.now().date()
+    today = datetime.now(pytz.timezone('America/Argentina/Buenos_Aires')).date()
 
     for match in matches_list:
         if match['result'] == '':
